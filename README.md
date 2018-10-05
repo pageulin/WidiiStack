@@ -10,8 +10,8 @@ Entraînement sur la stack de Widii
 - Ajouter une validation du modèle (levée d'exception par middleware)
 
 ## Niveau 2
-- Installer RabbitMQ
-- Lever un évènement depuis le projet d'API
+- Installer RabbitMQ (https://www.rabbitmq.com/install-windows.html)
+- Lever un évènement depuis le projet d'API (https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html) (https://www.rabbitmq.com/devtools.html)
 - Créer une deuxième API abonnée à l'évènement levé par la première
 
 ## Niveau 3
