@@ -4,10 +4,10 @@ Entraînement sur la stack de Widii
 
 ## Niveau 1
 
-Créer une API REST
-La documenter à l'aide de Swagger (SwashBuckle) et exposer une route pour la doc
-Ajouter une couche de persistance avec MongoDB
-Ajouter une validation du modèle (levée d'exception par middleware)
+- Créer une API REST
+- La documenter à l'aide de Swagger (SwashBuckle) et exposer une route pour la doc
+- Ajouter une couche de persistance avec MongoDB
+- Ajouter une validation du modèle (levée d'exception par middleware)
 
 ## Niveau 2
 Installer RabbitMQ
