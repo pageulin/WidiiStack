@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Test API</name>
+    </assembly>
+    <members>
+        <member name="M:Test_API.Controllers.UserController.Get">
+            <summary>
+            Retrieves users
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <response code="200">Users found</response>
+            <response code="400">Users Not found</response>
+            <response code="500">Oops! Can't find users</response>
+        </member>
+        <member name="M:Test_API.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            Get Value for specified id
+            </summary>
+            <param name="id">The id for the value</param>
+            <returns></returns>
+        </member>
+        <member name="M:Test_API.DAL.MongoDBContext.GetInstance">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

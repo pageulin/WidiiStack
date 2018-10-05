@@ -1,0 +1,25 @@
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.deps.json
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.runtimeconfig.json
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.runtimeconfig.dev.json
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.dll
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.pdb
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.csprojAssemblyReference.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.csproj.CoreCompileInputs.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorAssemblyInfo.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorAssemblyInfo.cs
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.AssemblyInfoInputs.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.AssemblyInfo.cs
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorTargetAssemblyInfo.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.dll
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.pdb
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test Api.xml
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.Views.dll
+C:\Users\utilisateur\Documents\Test API\bin\Debug\netcoreapp2.1\Test API.Views.pdb
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.TagHelpers.input.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.TagHelpers.output.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorCoreGenerate.cache
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Razor\Views\User\Create.g.cshtml.cs
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorTargetAssemblyInfo.cs
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.Views.pdb
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.csproj.CopyComplete
+C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Razor\Views\User\AddUser.g.cshtml.cs

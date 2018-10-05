@@ -1,0 +1,156 @@
+2018-10-05T09:39:06.742+0200 I CONTROL  [initandlisten] MongoDB starting : pid=13228 port=27017 dbpath=C:\Users\utilisateur\Documents\Test API\MongoDB\db\data 64-bit host=PC-1
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] db version v4.0.2
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] modules: none
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten] build environment:
+2018-10-05T09:39:06.743+0200 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-10-05T09:39:06.760+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2018-10-05T09:39:06.760+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-10-05T09:39:06.760+0200 I CONTROL  [initandlisten] options: { config: "C:\Users\utilisateur\Documents\Test API\MongoDB\mongod.config", storage: { dbPath: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\log\mongo.log" } }
+2018-10-05T09:39:06.836+0200 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7651M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-10-05T09:39:07.122+0200 I STORAGE  [initandlisten] WiredTiger message [1538725147:122029][13228:140706915761232], txn-recover: Set global recovery timestamp: 0
+2018-10-05T09:39:07.255+0200 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] 
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] 
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-10-05T09:39:07.547+0200 I CONTROL  [initandlisten] 
+2018-10-05T09:39:07.590+0200 I STORAGE  [initandlisten] createCollection: admin.system.version with provided UUID: eb6b8031-9090-4eda-92f3-7b9d1c317b01
+2018-10-05T09:39:07.781+0200 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 4.0
+2018-10-05T09:39:07.802+0200 I STORAGE  [initandlisten] createCollection: local.startup_log with generated UUID: 31840d60-210a-4c15-b00c-04d86a9199a0
+2018-10-05T09:39:08.408+0200 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'L’objet spécifié n’a pas été trouvé sur l’ordinateur.' for counter '\Memory\Available Bytes'
+2018-10-05T09:39:08.408+0200 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/utilisateur/Documents/Test API/MongoDB/db/data/diagnostic.data'
+2018-10-05T09:39:08.414+0200 I STORAGE  [LogicalSessionCacheRefresh] createCollection: config.system.sessions with generated UUID: e9748710-78ee-4328-baeb-a9f8a25fa73d
+2018-10-05T09:39:08.415+0200 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-10-05T09:39:08.685+0200 I INDEX    [LogicalSessionCacheRefresh] build index on: config.system.sessions properties: { v: 2, key: { lastUse: 1 }, name: "lsidTTLIndex", ns: "config.system.sessions", expireAfterSeconds: 1800 }
+2018-10-05T09:39:08.685+0200 I INDEX    [LogicalSessionCacheRefresh] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-10-05T09:39:08.698+0200 I INDEX    [LogicalSessionCacheRefresh] build index done.  scanned 0 total records. 0 secs
+2018-10-05T09:39:08.699+0200 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: createIndexes { createIndexes: "system.sessions", indexes: [ { key: { lastUse: 1 }, name: "lsidTTLIndex", expireAfterSeconds: 1800 } ], $db: "config" } numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_msg 284ms
+2018-10-05T09:39:28.597+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:49995 #1 (1 connection now open)
+2018-10-05T09:39:28.598+0200 I NETWORK  [conn1] received client metadata from 127.0.0.1:49995 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.2" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 17134)" } }
+2018-10-05T09:41:32.569+0200 I NETWORK  [conn1] end connection 127.0.0.1:49995 (0 connections now open)
+2018-10-05T09:41:34.629+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:50148 #2 (1 connection now open)
+2018-10-05T09:41:34.629+0200 I NETWORK  [conn2] received client metadata from 127.0.0.1:50148 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.2" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 17134)" } }
+2018-10-05T09:45:35.609+0200 I STORAGE  [conn2] createCollection: admin.system.users with generated UUID: 4371341a-79dd-46ad-b811-a996aa4c28d6
+2018-10-05T09:45:35.785+0200 I COMMAND  [conn2] command admin.system.users appName: "MongoDB Shell" command: insert { insert: "system.users", bypassDocumentValidation: false, ordered: true, $db: "admin" } ninserted:1 keysInserted:2 numYields:0 reslen:45 locks:{ Global: { acquireCount: { r: 4, w: 4 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { w: 3 } } } protocol:op_msg 175ms
+2018-10-05T09:45:35.797+0200 I COMMAND  [conn2] command admin.$cmd appName: "MongoDB Shell" command: createUser { createUser: "root", pwd: "xxx", roles: [ { role: "root", db: "admin" } ], digestPassword: true, writeConcern: { w: "majority", wtimeout: 600000.0 }, lsid: { id: UUID("99784478-4437-4585-b315-d5fd7ff4c56c") }, $db: "admin" } numYields:0 reslen:38 locks:{ Global: { acquireCount: { r: 4, w: 4 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { w: 3 } } } protocol:op_msg 240ms
+2018-10-05T09:45:40.806+0200 I NETWORK  [conn2] end connection 127.0.0.1:50148 (0 connections now open)
+2018-10-05T09:45:57.576+0200 I CONTROL  [thread3] Ctrl-C signal
+2018-10-05T09:45:57.576+0200 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-10-05T09:45:57.576+0200 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-10-05T09:45:57.576+0200 I CONTROL  [consoleTerminate] Shutting down free monitoring
+2018-10-05T09:45:57.577+0200 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-10-05T09:45:57.582+0200 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-10-05T09:45:58.111+0200 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-10-05T09:45:58.111+0200 I CONTROL  [consoleTerminate] now exiting
+2018-10-05T09:45:58.111+0200 I CONTROL  [consoleTerminate] shutting down with code:12
+2018-10-05T09:46:49.440+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] MongoDB starting : pid=8984 port=27017 dbpath=C:\Users\utilisateur\Documents\Test API\MongoDB\db\data 64-bit host=PC-1
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] db version v4.0.2
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] modules: none
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten] build environment:
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2018-10-05T09:46:49.756+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-10-05T09:46:49.757+0200 I CONTROL  [initandlisten] options: { config: "C:\Users\utilisateur\Documents\Test API\MongoDB\mongod.config", security: { authorization: "enabled" }, storage: { dbPath: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\log\mongo.log" } }
+2018-10-05T09:46:49.757+0200 I STORAGE  [initandlisten] Detected data files in C:\Users\utilisateur\Documents\Test API\MongoDB\db\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-10-05T09:46:49.758+0200 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7651M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-10-05T09:46:49.959+0200 I STORAGE  [initandlisten] WiredTiger message [1538725609:959189][8984:140706915761232], txn-recover: Main recovery loop: starting at 1/33280
+2018-10-05T09:46:50.071+0200 I STORAGE  [initandlisten] WiredTiger message [1538725610:71163][8984:140706915761232], txn-recover: Recovering log 1 through 2
+2018-10-05T09:46:50.163+0200 I STORAGE  [initandlisten] WiredTiger message [1538725610:163163][8984:140706915761232], txn-recover: Recovering log 2 through 2
+2018-10-05T09:46:50.217+0200 I STORAGE  [initandlisten] WiredTiger message [1538725610:217161][8984:140706915761232], txn-recover: Set global recovery timestamp: 0
+2018-10-05T09:46:50.351+0200 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-10-05T09:46:50.482+0200 I CONTROL  [initandlisten] 
+2018-10-05T09:46:50.482+0200 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-10-05T09:46:50.482+0200 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-10-05T09:46:50.482+0200 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-10-05T09:46:50.482+0200 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-10-05T09:46:50.483+0200 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-10-05T09:46:50.483+0200 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-10-05T09:46:50.483+0200 I CONTROL  [initandlisten] 
+2018-10-05T09:46:51.006+0200 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'L’objet spécifié n’a pas été trouvé sur l’ordinateur.' for counter '\Memory\Available Bytes'
+2018-10-05T09:46:51.006+0200 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/utilisateur/Documents/Test API/MongoDB/db/data/diagnostic.data'
+2018-10-05T09:46:51.008+0200 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-10-05T12:03:51.645+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:62332 #1 (1 connection now open)
+2018-10-05T12:03:51.765+0200 I NETWORK  [conn1] received client metadata from 127.0.0.1:62332 conn1: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T12:03:52.039+0200 I ACCESS   [conn1] Successfully authenticated as principal root on admin
+2018-10-05T12:03:55.397+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:62339 #2 (2 connections now open)
+2018-10-05T12:03:55.398+0200 I NETWORK  [conn2] received client metadata from 127.0.0.1:62339 conn2: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T12:03:55.419+0200 I ACCESS   [conn2] Successfully authenticated as principal root on admin
+2018-10-05T12:14:49.202+0200 I NETWORK  [conn2] end connection 127.0.0.1:62339 (1 connection now open)
+2018-10-05T13:16:37.119+0200 I NETWORK  [conn1] end connection 127.0.0.1:62332 (0 connections now open)
+2018-10-05T15:57:48.832+0200 I CONTROL  [main] ***** SERVER RESTARTED *****
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] MongoDB starting : pid=11772 port=27017 dbpath=C:\Users\utilisateur\Documents\Test API\MongoDB\db\data 64-bit host=PC-1
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] db version v4.0.2
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] modules: none
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten] build environment:
+2018-10-05T15:57:49.609+0200 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2018-10-05T15:57:49.610+0200 I CONTROL  [initandlisten]     distarch: x86_64
+2018-10-05T15:57:49.610+0200 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-10-05T15:57:49.610+0200 I CONTROL  [initandlisten] options: { config: "C:\Users\utilisateur\Documents\Test API\MongoDB\mongod.config", security: { authorization: "enabled" }, storage: { dbPath: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\data" }, systemLog: { destination: "file", logAppend: true, path: "C:\Users\utilisateur\Documents\Test API\MongoDB\db\log\mongo.log" } }
+2018-10-05T15:57:49.613+0200 W STORAGE  [initandlisten] Detected unclean shutdown - C:\Users\utilisateur\Documents\Test API\MongoDB\db\data\mongod.lock is not empty.
+2018-10-05T15:57:49.680+0200 I STORAGE  [initandlisten] Detected data files in C:\Users\utilisateur\Documents\Test API\MongoDB\db\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-10-05T15:57:49.680+0200 W STORAGE  [initandlisten] Recovering data from the last clean checkpoint.
+2018-10-05T15:57:49.680+0200 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7651M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2018-10-05T15:57:49.990+0200 I STORAGE  [initandlisten] WiredTiger message [1538747869:989770][11772:140732515957840], txn-recover: Main recovery loop: starting at 2/33280
+2018-10-05T15:57:49.991+0200 I STORAGE  [initandlisten] WiredTiger message [1538747869:990768][11772:140732515957840], txn-recover: Recovering log 2 through 3
+2018-10-05T15:57:50.082+0200 I STORAGE  [initandlisten] WiredTiger message [1538747870:81766][11772:140732515957840], txn-recover: Recovering log 3 through 3
+2018-10-05T15:57:50.137+0200 I STORAGE  [initandlisten] WiredTiger message [1538747870:136798][11772:140732515957840], txn-recover: Set global recovery timestamp: 0
+2018-10-05T15:57:50.328+0200 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] 
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2018-10-05T15:57:50.806+0200 I CONTROL  [initandlisten] 
+2018-10-05T15:57:51.593+0200 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'L’objet spécifié n’a pas été trouvé sur l’ordinateur.' for counter '\Memory\Available Bytes'
+2018-10-05T15:57:51.593+0200 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/utilisateur/Documents/Test API/MongoDB/db/data/diagnostic.data'
+2018-10-05T15:57:51.610+0200 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-10-05T15:58:06.328+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:64650 #1 (1 connection now open)
+2018-10-05T15:58:06.452+0200 I NETWORK  [conn1] received client metadata from 127.0.0.1:64650 conn1: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T15:58:06.749+0200 I ACCESS   [conn1] Successfully authenticated as principal root on admin
+2018-10-05T15:58:10.479+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:64659 #2 (2 connections now open)
+2018-10-05T15:58:10.479+0200 I NETWORK  [conn2] received client metadata from 127.0.0.1:64659 conn2: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T15:58:10.499+0200 I ACCESS   [conn2] Successfully authenticated as principal root on admin
+2018-10-05T15:58:10.550+0200 I STORAGE  [conn2] createCollection: testApi.User with generated UUID: a568bf5d-fa0f-4052-bb9c-6c97ce434684
+2018-10-05T15:58:10.924+0200 I INDEX    [conn2] build index on: testApi.User properties: { v: 2, unique: true, key: { login: 1 }, name: "login_1", ns: "testApi.User" }
+2018-10-05T15:58:10.924+0200 I INDEX    [conn2] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2018-10-05T15:58:10.955+0200 I INDEX    [conn2] build index done.  scanned 0 total records. 0 secs
+2018-10-05T15:58:10.955+0200 I COMMAND  [conn2] command testApi.$cmd command: createIndexes { createIndexes: "User", indexes: [ { key: { login: 1 }, name: "login_1", unique: true } ], $db: "testApi", lsid: { id: UUID("3543763c-f0ff-4a93-9417-8dbf7660c3c1") } } numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_msg 405ms
+2018-10-05T15:58:56.266+0200 I NETWORK  [conn1] end connection 127.0.0.1:64650 (1 connection now open)
+2018-10-05T15:58:56.266+0200 I NETWORK  [conn2] end connection 127.0.0.1:64659 (0 connections now open)
+2018-10-05T15:59:00.489+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:64736 #3 (1 connection now open)
+2018-10-05T15:59:00.590+0200 I NETWORK  [conn3] received client metadata from 127.0.0.1:64736 conn3: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T15:59:00.834+0200 I ACCESS   [conn3] Successfully authenticated as principal root on admin
+2018-10-05T15:59:03.618+0200 I NETWORK  [listener] connection accepted from 127.0.0.1:64745 #4 (2 connections now open)
+2018-10-05T15:59:03.618+0200 I NETWORK  [conn4] received client metadata from 127.0.0.1:64745 conn4: { driver: { name: "mongo-csharp-driver", version: "2.7.0.0" }, os: { type: "Windows", name: "Microsoft Windows 10.0.17134", architecture: "x86_64", version: "10.0.17134" }, platform: ".NET Core 4.6.26919.02" }
+2018-10-05T15:59:03.646+0200 I ACCESS   [conn4] Successfully authenticated as principal root on admin
+2018-10-05T16:02:51.744+0200 I WRITE    [LogicalSessionCacheRefresh] update config.system.sessions command: { q: { _id: { id: UUID("3543763c-f0ff-4a93-9417-8dbf7660c3c1"), uid: BinData(0, 6399AB0DAC62F20BFC466753B10FB58FB7E692BEC952C69B84D997021794D1F8) } }, u: { $currentDate: { lastUse: true }, $setOnInsert: { user: { name: "root@admin" } } }, multi: false, upsert: true } planSummary: IDHACK keysExamined:0 docsExamined:0 nMatched:0 nModified:0 upsert:1 keysInserted:2 numYields:1 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 101ms
+2018-10-05T16:02:51.745+0200 I COMMAND  [LogicalSessionCacheRefresh] command config.$cmd command: update { update: "system.sessions", ordered: false, allowImplicitCollectionCreation: false, writeConcern: { w: "majority", wtimeout: 15000 }, $db: "config" } numYields:0 reslen:363 locks:{ Global: { acquireCount: { r: 5, w: 5 } }, Database: { acquireCount: { w: 4, W: 1 } }, Collection: { acquireCount: { w: 4 } } } protocol:op_msg 101ms
+2018-10-05T16:13:00.518+0200 I NETWORK  [conn4] end connection 127.0.0.1:64745 (1 connection now open)
+2018-10-05T16:39:07.249+0200 I NETWORK  [conn3] end connection 127.0.0.1:64736 (0 connections now open)
+2018-10-05T17:02:52.927+0200 I CONTROL  [thread5] Ctrl-C signal
+2018-10-05T17:02:52.927+0200 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2018-10-05T17:02:52.927+0200 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2018-10-05T17:02:52.928+0200 I CONTROL  [consoleTerminate] Shutting down free monitoring
+2018-10-05T17:02:52.928+0200 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2018-10-05T17:02:52.934+0200 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2018-10-05T17:02:53.268+0200 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2018-10-05T17:02:53.268+0200 I CONTROL  [consoleTerminate] now exiting
+2018-10-05T17:02:53.268+0200 I CONTROL  [consoleTerminate] shutting down with code:12
