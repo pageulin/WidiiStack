@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Test_API.DAL.Service;
 using Test_API.Entity;
+using Test_API.Messaging;
 
 namespace Test_API.Controllers
 {
@@ -61,6 +62,7 @@ namespace Test_API.Controllers
             if(ModelState.IsValid)
             {
                 message = this._userService.CreateUser(user) ? "Utilisateur " + user.login + " correctement créé" : "Erreur à la création de l'utilisateur " + user.login;
+                RabbitMQSender.GetInstance().sendMessage(user.login);
             }
             ViewBag.Message = message;
             return View(user);

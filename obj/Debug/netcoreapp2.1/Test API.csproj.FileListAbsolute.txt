@@ -23,3 +23,28 @@ C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.RazorTa
 C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.Views.pdb
 C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Test API.csproj.CopyComplete
 C:\Users\utilisateur\Documents\Test API\obj\Debug\netcoreapp2.1\Razor\Views\User\AddUser.g.cshtml.cs
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test Api.xml
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.csprojAssemblyReference.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.csproj.CoreCompileInputs.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.RazorAssemblyInfo.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.RazorAssemblyInfo.cs
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.AssemblyInfoInputs.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.AssemblyInfo.cs
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.dll
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.pdb
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.deps.json
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.runtimeconfig.json
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.runtimeconfig.dev.json
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.dll
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.pdb
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.Views.dll
+F:\Dev\Projects\WidiiStack\bin\Debug\netcoreapp2.1\Test API.Views.pdb
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.TagHelpers.input.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.TagHelpers.output.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.RazorCoreGenerate.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Razor\Views\User\AddUser.g.cshtml.cs
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Razor\Views\User\Create.g.cshtml.cs
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.RazorTargetAssemblyInfo.cache
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.RazorTargetAssemblyInfo.cs
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.Views.pdb
+F:\Dev\Projects\WidiiStack\obj\Debug\netcoreapp2.1\Test API.csproj.CopyComplete
