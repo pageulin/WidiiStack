@@ -11939,28 +11939,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {},
+    "C:\\Users\\utilisateur\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Dev\\Projects\\WidiiStack\\Messaging Api\\Messaging Api.csproj",
+      "projectUniqueName": "c:\\Users\\utilisateur\\Documents\\Test API\\WidiiStack\\Messaging Api\\Messaging Api.csproj",
       "projectName": "Messaging Api",
-      "projectPath": "F:\\Dev\\Projects\\WidiiStack\\Messaging Api\\Messaging Api.csproj",
-      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-      "outputPath": "F:\\Dev\\Projects\\WidiiStack\\Messaging Api\\obj\\",
+      "projectPath": "c:\\Users\\utilisateur\\Documents\\Test API\\WidiiStack\\Messaging Api\\Messaging Api.csproj",
+      "packagesPath": "C:\\Users\\utilisateur\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\utilisateur\\Documents\\Test API\\WidiiStack\\Messaging Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

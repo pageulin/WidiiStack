@@ -32,6 +32,7 @@ namespace Test_API.Controllers
         public async Task<IEnumerable<User>> Get()
         {
             var users = await this._userService.FindUsers();
+            Console.WriteLine("Messages reçus : " + RabbitMQReceiver.GetInstance().Received());
             return users;
         }
 

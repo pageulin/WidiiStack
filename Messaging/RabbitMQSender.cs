@@ -7,21 +7,21 @@ namespace Test_API.Messaging
     public class RabbitMQSender
     {
 
-        private IModel _channel;
+        private IConnection _connection = null;
+        private IModel _channel = null;
         private static RabbitMQSender _sender = null;
 
         private RabbitMQSender()
         {
             var factory = new ConnectionFactory(){ HostName = "localhost"};
-            using (var connection = factory.CreateConnection())
-            {
-                this._channel = connection.CreateModel();
-                this._channel.QueueDeclare(queue: "hello",
-                    durable: false,
-                    exclusive: false,
-                    autoDelete: false,
-                    arguments: null);
-            }
+            this._connection = factory.CreateConnection();
+            this._channel = this._connection.CreateModel();
+            this._channel.QueueDeclare(queue: "hello",
+                durable: false,
+                exclusive: false,
+                autoDelete: false,
+                arguments: null);
+            
         }
 
         public static RabbitMQSender GetInstance()
